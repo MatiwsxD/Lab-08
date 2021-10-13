@@ -33,7 +33,7 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 /**
  *
- * @author hcadavid
+ * @author
  */
 public class MyBatisExample {
 
@@ -77,7 +77,7 @@ public class MyBatisExample {
         //new SimpleDateFormat("yyyy/MM/dd").parse("2020/09/25");
        //System.out.println(cm.consultarCliente(1));
         //cm.agregarItemRentadoACliente(2, 6, Date.valueOf("2021-08-20"), Date.valueOf("2021-08-26"));
-        System.out.println(cm.consultarCliente(2));
+        System.out.println(cm.consultarCliente(4));
 
         //System.out.println(im.consultarItems());
         //System.out.println(im.consultarItem(1));
