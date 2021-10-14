@@ -1,0 +1,15 @@
+version: 2.1
+
+orbs:
+  maven: circleci/maven@1.2.0
+
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: serviciodealquilerlab08
+
+workflows:
+  maven_test:
+    jobs:
+      - maven/test # checkout, build, test, and upload test results
